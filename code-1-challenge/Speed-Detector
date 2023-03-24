@@ -1,0 +1,13 @@
+function   () {
+let speed
+    speedlimit=70
+if (speed < speedlimit ) {
+    showMessage('OK')
+}
+}
+
+    
+        
+      
+    
+

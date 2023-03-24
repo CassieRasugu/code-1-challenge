@@ -1,0 +1,17 @@
+function studentmarks (){
+const studentmarks = parseInt(prompt("Enter studentmarks"));
+if (studentmarks > 79 && studentmarks<= 100) {
+    showMessage('A')
+}
+else if (studentmarks >60 && studentmarks <= 79) {
+    showMessage('B')
+}
+else if (studentmarks >49 && studentmarks <=59) {
+    showMessage('C')
+}
+else if (studentmarks >40 && studentmarks <=49) {
+    showMessage('D')
+}
+else if (studentmarks >40) {
+    showMessage('E')
+}}
